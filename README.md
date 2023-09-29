@@ -159,6 +159,12 @@ Use the  @Scope("cucumber-glue") cucumber specific annotation that will dispose 
 
 ```
 
+
 ##### Use the step in the scenario after reaching Checkout Overview Page
 
 ```gherkin
+     
+     Then Checkout Overview is displayed
+     And Users checks product is found on the Checkout Overview page
+ 
+```
